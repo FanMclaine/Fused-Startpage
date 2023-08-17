@@ -41,6 +41,11 @@ const config = {
 
 ![image](https://github.com/FanMclaine/Startpage/assets/66262586/bf30c462-1722-4903-a7b8-01e8acbe3de4)
 
+## Live Demo
+
+You can live demo this startpage [here](https://fanmclaine.github.io/fused-startpage)
+> Note: The weather API doesn't work in the live demo as you need an api key for it to work.
+
 ## Installation
 
 **Firefox:**
