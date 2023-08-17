@@ -1,13 +1,22 @@
-# Fused-Startpage [WIP README]
-
-:toilet: **Hackable startpage that tries to mimic popular startpages then fuse it into one? using only vanilla HTML, CSS, and Javascript**
-
+# 📟 Fused-Startpage [WIP README]
 
 ![image](https://github.com/FanMclaine/Startpage/assets/66262586/93d0b2ef-f745-4c16-9206-d97677e45043)
 
+## 📇 Index
 
+- [About]()
+- [Features]()
+- [Usage]()
+- [Configuration]()
+- [Screenshots]()
+- [Live Demo]()
+- [Roadmap]()
 
-## Features
+## ℹ️ About
+
+:toilet: **Hackable startpage that tries to mimic popular startpages then fuse it into one? using only vanilla HTML, CSS, and Javascript**
+
+## 🌟 Features
 
 - 🖼️ An image that does nothing except to display your anime waifus
 - 🍫 Searchbar
@@ -16,7 +25,12 @@
 - 🍮: Quick Access icons to your favorite sites (Youtube, Reddit, etc.)
 - 🎴 Additional Links in Cards
 
-## Configuration
+## 🔻 Usage
+
+**Firefox:**
+~~Idk, you figure it out~~ Instyall the New Tab Overrider plugin then... you know what to do right?
+
+## 🧰 Configuration
 
 As of right now, you can only configure stuff like openweathermap api keys and city coordinates at the start of script.js
 ```js
@@ -37,16 +51,20 @@ const config = {
 // Actual normal javascript
 ```
 
-## Screenshot(s) 
+You have to edit index.html in order to add/remove/edit links.
+
+## 📷 Screenshot(s) 
 
 ![image](https://github.com/FanMclaine/Startpage/assets/66262586/bf30c462-1722-4903-a7b8-01e8acbe3de4)
 
-## Live Demo
+## 💿 Live Demo
 
 You can live demo this startpage [here](https://fanmclaine.github.io/fused-startpage)
 > Note: The weather API doesn't work in the live demo as you need an api key for it to work.
 
-## Installation
+## 🛣️ Roadmap
 
-**Firefox:**
-~~Idk, you figure it out~~ Instyall the New Tab Overrider plugin then... you know what to do right?
+- a separate file for configs
+- themes and easier customizability of colors
+- easier customizability of links
+- make it more responsive
