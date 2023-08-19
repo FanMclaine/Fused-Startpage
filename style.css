@@ -1,14 +1,35 @@
 /* I AM VERY BAD AT CSS, I KNOW*/
 
+/* COLORS*/
+/* You can Customize colors here*/
+
+:root {
+  --background-color: #181926;
+  --card-background-color: #1e2030;
+  --font-color: #cad3f5;
+  --bookmark-icons: #535373;
+  --links: silver; 
+  --links-hover: navajowhite;
+  
+  /* Bookmark links */
+  --link1: red; /* Youtube */
+  --link2: orangered; /* Reddit */
+  --link3: deepskyblue; /* Facebook */
+  --link4: indianred; /* Revolt */
+  --link5: whitesmoke; /*Github */
+}
+
+
+/* Actual normal css */
 body {
-  background-color: #181926;
+  background-color: var(--background-color);
   font-family: monospace;
   padding-right: 160px;
   padding-left: 160px;
 }
 
 html {
-  color: #cad3f5;
+  color: var(--font-color);
   scrollbar-width: thin;
   scrollbar-color: #24273a;
 }
@@ -42,32 +63,38 @@ img {
 }
 
 .uhm {
-  color: #535373;
+  color: var(--bookmark-icons);
   text-decoration: none;
   display: inline-block;
   font-size: 42px;
   text-align: center;
   margin: 8px;
+  transition: 0.3s;
 }
 
 #link1:hover {
-  color: red;
+  color: var(--link1);
+  font-size: 45px;
 }
 
 #link2:hover {
-  color: orangered;
+  color: var(--link2);
+  font-size: 45px;
 }
 
 #link3:hover {
-  color: deepskyblue;
+  color: var(--link3);
+  font-size: 45px;
 }
 
 #link4:hover {
-  color: indianred;
+  color: var(--link4);
+  font-size: 45px;
 }
 
 #link5:hover {
-  color: whitesmoke;
+  color: var(--link5);
+  font-size: 45px;
 }
 
 
@@ -80,7 +107,7 @@ img {
 
 #container {
   text-align: center;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 #icon {
@@ -88,14 +115,14 @@ img {
 }
 
 .something {
-  color: silver;
+  color: var(--links);
   text-decoration: none; 
   display: block;
   margin-right: 20px;
 }
 
 .something:hover {
-  color: navajowhite;
+  color: var(--links-hover);
 }
 
 .what {
@@ -110,7 +137,7 @@ img {
   flex: 1;
   margin: 10px;
   border-radius: 5px;
-  background-color: #1e2030;
+  background-color: var(--card-background-color);
   display: inline-block;
 }
 
@@ -131,14 +158,15 @@ img {
 }
 
 .searchbar {
- width: fit-content;
- height: fit-content;
- position: relative;
- margin: 15px;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: 15px;
+  text-align: center;
 }
 
 .searchbar input[type=text] {
-  width: 920px;
+  width: 930px;
   border-radius: 5px;
   background-color: transparent;
   border-style: none;
@@ -148,7 +176,9 @@ img {
   outline: none;
   padding-left: 50px;
   color:#fff;
-  border-bottom: 1px solid #3e3e3e;
+  border-bottom: 1px solid #1d1f2e;
+  -moz-transition: 1s;
+  transition: 1s;
 }
 
 .btn-search{
@@ -165,4 +195,9 @@ img {
   color:#ffffff ;
   background-color:transparent;
   pointer-events: painted;  
+}
+
+.searchbar input:focus {
+  width: 930px;
+  border-bottom: 1px solid #3e3e3e;
 }

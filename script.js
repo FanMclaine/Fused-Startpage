@@ -4,7 +4,7 @@ const config = {
   "name": "uwu nyaaa >//< ", //Your name which will be used to greet you 
   "weather": [
     {
-      "API_KEY": "q48tggq389g7b_yourApiKey", //Get one from openweathermap.org
+      "API_KEY": "YourApiKey12542", //Get one from openweathermap.org
       "City_Name": "London",          // Default location is L*ndon | get your city's latitude and longitude in https://openweathermap.org/find
       "latitude": "51.5085",   // Your City's latitude
       "longitude": "0.1257"    // Your City's longitude
@@ -61,10 +61,9 @@ async function getCurrentWeather() {
 
   const temperatureC = Math.round((weatherData.main.temp - 273.15) * 10) / 10;
 
-  const weather = `<h3> <b><span class="fa-solid fa-temperature-three-quarters"></span> ${temperatureC}°C | ${weatherData.weather[0].main}</b></h3>`
+  const weather = `<b><span class="fa-solid fa-temperature-three-quarters"></span> ${temperatureC}°C | ${weatherData.weather[0].main}</b>`
 
   document.querySelector('#container').innerHTML = weather;
+  console.log('Weather:', weather);
 }
-
 getCurrentWeather().then(() => { console.log('Weather successfully retrieved!'); });
-
