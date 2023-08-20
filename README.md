@@ -57,11 +57,13 @@ You have to edit index.html in order to add/remove/edit links.
 ## 📷 Screenshot(s) 
 
 ![image](https://github.com/FanMclaine/Startpage/assets/66262586/bf30c462-1722-4903-a7b8-01e8acbe3de4)
+![image](https://github.com/FanMclaine/Fused-Startpage/assets/66262586/9dfb32eb-f6f5-4db6-b790-b31b2f17ec1c)
+> Catppuccin logo from github.com/catppuccin/catppuccin
 
 ## 💿 Live Demo
 
-You try out this startpage [here](https://fanmclaine.github.io/startpage)
-> Note: The weather API doesn't work in the live demo as you need an api key for it to work.
+You try out this startpage [here](https://fanmclaine.github.io/Fused-Startpage/)
+> Note: The weather API does not display the real weather in the live demo as you need an api key for it to work.
 
 ## 🛣️ Roadmap
 
