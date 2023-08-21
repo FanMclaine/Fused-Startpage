@@ -1,26 +1,27 @@
-/* I AM VERY BAD AT CSS, I KNOW*/
+/* https://github.com/fanmclaine/fused-startpage for themes and customization*/
 
-/* COLORS*/
-/* You can Customize colors here*/
-
+/* _____________COLOR CUSTOMIZATION____________________ */
 :root {
   --background-color: #181926;
   --card-background-color: #1e2030;
   --font-color: #cad3f5;
-  --bookmark-icons: #535373;
+  --font-color2: #ffff;
   --links: silver; 
   --links-hover: navajowhite;
+  --searchbar-border: #1d1f2e;
+  --searchbar-focus: #3e3e3e;
   
   /* Bookmark links */
+  --bookmark-icons: #535373;
   --link1: red; /* Youtube */
   --link2: orangered; /* Reddit */
   --link3: deepskyblue; /* Facebook */
   --link4: indianred; /* Revolt */
   --link5: whitesmoke; /*Github */
 }
+/* _______________END OF COLORS_____________________________*/
 
-
-/* Actual normal css */
+/* Actual normal css | Caution: Bad code ahead*/
 body {
   background-color: var(--background-color);
   font-family: monospace;
@@ -150,7 +151,7 @@ img {
 .container_ship {
   padding-bottom: 10px;
   padding-left: 25px;
-  color: white;
+  color: var(--font-color2);
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -176,7 +177,7 @@ img {
   outline: none;
   padding-left: 50px;
   color:#fff;
-  border-bottom: 1px solid #1d1f2e;
+  border-bottom: 1px solid var(--searchbar-border);
   -moz-transition: 1s;
   transition: 1s;
 }
@@ -192,12 +193,12 @@ img {
   border-radius: 50%;
   position: absolute;
   left: 0px;
-  color:#ffffff ;
+  color: var(--font-color2);
   background-color:transparent;
   pointer-events: painted;  
 }
 
 .searchbar input:focus {
   width: 930px;
-  border-bottom: 1px solid #3e3e3e;
+  border-bottom: 1px solid var(--searchbar-focus);
 }
