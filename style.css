@@ -1,18 +1,18 @@
-/* https://github.com/fanmclaine/fused-startpage for themes and customization*/
+/* https://github.com/fanmclaine/fused-startpage for themes and customization info*/
 
 /* _____________COLOR CUSTOMIZATION____________________ */
 :root {
-  --background-color: #181926;
-  --card-background-color: #1e2030;
+  --background-color: #191724;
+  --card-background-color: #1f1d2e;
   --font-color: #cad3f5;
-  --font-color2: #ffff;
+  --font-color2: #e0def4;
   --links: silver; 
   --links-hover: navajowhite;
-  --searchbar-border: #1d1f2e;
-  --searchbar-focus: #3e3e3e;
+  --searchbar-border: #26233a;
+  --searchbar-focus: #6e6a86;
   
   /* Bookmark links */
-  --bookmark-icons: #535373;
+  --bookmark-icons: #423e59;
   --link1: red; /* Youtube */
   --link2: orangered; /* Reddit */
   --link3: deepskyblue; /* Facebook */
