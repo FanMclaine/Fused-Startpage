@@ -1,5 +1,8 @@
-![image](https://github.com/FanMclaine/Fused-Startpage/assets/66262586/acf13c68-288e-46df-8c39-467f373ae962)
-![GitHub repo size](https://img.shields.io/github/repo-size/FanMclaine/Fused-Startpage?style=for-the-badge)
+![image](https://github.com/FanMclaine/Fused-Startpage/assets/66262586/766f58ef-1257-4481-b0cd-f99ce4b0ca0a)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/FanMclaine/Fused-Startpage?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/fanmclaine/fused-startpage?style=for-the-badge)
+
+
 
 ## 📇 Index
 
@@ -13,7 +16,8 @@
 
 ## ℹ️ About
 
-:toilet: **Hackable startpage built using only vanilla HTML, CSS, and Javascript**
+:toilet: **Hackable startpage built using only vanilla HTML, CSS, and Javascript**<br>
+💛 Star or share this repo if you like this project 🤩
 
 ## 🌟 Features
 
