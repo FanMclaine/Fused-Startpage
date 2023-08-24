@@ -3,25 +3,25 @@
 
 ## 📇 Index
 
-- [About](#-about)
-- [Features](#-features)
-- [Usage](#-usage)
-- [Configuration](#-configuration)
-- [Screenshots](#-screenshots)
-- [Live Demo](#-live-demo)
-- [Roadmap](#-roadmap)
+- [ℹ️ About](#ℹ%EF%B8%8F-about)
+- [🌟 Features](#-features)
+- [🔻 Usage](#usage)
+- [🧰 Configuration](#-configuration--customization)
+- [📷 Screenshots](#-screenshots)
+- [💿 Live Demo](#-live-demo)
+- [🛣️ Roadmap](#%EF%B8%8F-roadmap)
 
 ## ℹ️ About
 
-:toilet: **Hackable startpage built using vanilla HTML, CSS, and Javascript which makes it easier to customize (if you an IQ of over 100)**
+:toilet: **Hackable startpage built using only vanilla HTML, CSS, and Javascript**
 
 ## 🌟 Features
 
-- 🖼️ **An image** that does nothing except to display your anime waifus
+- 🖼️ **An image** that does nothing except to display your anime waifus or the shrek full movie gif
 - 🍫 **Searchbar** using google
 - ⏰ **Greeter** that greets you good morning and etc.
 - ☁️ **Weather** API using openweathermap.org
-- 🍮: **Bookmark** icons to your favorite sites (Youtube, Reddit, etc.)
+- 🍮 **Bookmark** icons to your favorite sites (Youtube, Reddit, etc.)
 
 ## 📷 Screenshot(s) 
 
