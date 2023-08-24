@@ -1,4 +1,4 @@
-![image](https://github.com/FanMclaine/Fused-Startpage/assets/66262586/c82e1c98-6362-4952-9ea0-c50705e3ab1b)
+![image](https://github.com/FanMclaine/Fused-Startpage/assets/66262586/acf13c68-288e-46df-8c39-467f373ae962)
 ![GitHub repo size](https://img.shields.io/github/repo-size/FanMclaine/Fused-Startpage?style=for-the-badge)
 
 ## 📇 Index
@@ -74,8 +74,17 @@ const config = {
 }
 /* _______________END OF COLORS_____________________________*/
 ```
-
-You have to edit index.html in order to add/remove/edit links.
+🔗 You have to edit index.html in order to add/remove/edit links.
+```html
+<!-- Card 1 links -->
+              
+<!-- <a class="something" href="https://yourlink.com">Your link title</a> -->
+             
+<a class="something" href="https://spotify.com">Spotify</a> 
+<a class="something" href="https://music.youtube.com">YT Music</a>
+<a class="something" href="https://reddit.com/r/unixporn">r/unixprn</a>
+<!------------------->
+```
 
 ## Usage
 - **Firefox:**
